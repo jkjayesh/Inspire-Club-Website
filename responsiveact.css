@@ -1,0 +1,39 @@
+/* 
+===============
+ACTIVITIES
+===============
+ */
+
+
+@media (min-width:660px) and (max-width:1013px)
+{
+  #cntnt{
+    width: 64vh;
+    height: 36vh;
+  }
+}
+
+@media (min-width:450px) and (max-width:660px)
+{
+  #cntnt{
+    width: 65vh;
+    height: 37vh;
+}
+}
+@media (min-width:350px) and (max-width:450px)
+{
+  #cntnt{
+    width: 44vh;
+    height: 25vh;
+}
+ }
+@media (min-width:50px) and (max-width:280px)
+{
+  #cntnt{
+    width: 41vh;
+    height: 23vh;
+}
+ }
+
+
+

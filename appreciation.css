@@ -1,0 +1,107 @@
+/* Join Us section and Universities section */
+
+.modal-content{
+    background: rgb(234, 242, 243);
+}
+.btn1{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px 18px;
+    background-color: rgba(241, 227, 227, 0.665);
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+/* navbar hover section */
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 5px;
+    margin-left: 20px;
+}
+
+.nav-link:hover{
+    background-color: rgb(5, 93, 5);
+    border-radius: 8px;
+    color: white;
+}
+
+.review{
+    display: flex;
+    margin: 15px;
+}
+
+.review1{
+    display: flex;
+    margin: 15px;
+}
+.review2{
+    display: flex;
+    margin: 15px;
+}
+.review3{
+    display: flex;
+    margin: 15px;
+}
+.review4{
+    display: flex;
+    margin: 15px;
+}
+.writing{
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: math;
+}
+.writing:hover{
+    color: white;
+}
+.writing1{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 199px;
+    margin: 6px 0px 0px 1px;
+    padding: 3px;
+    background: rgb(210, 210, 179);
+}
+.img{
+    margin-top: 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+hr{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 35px;
+}
+.rev:hover{
+    background: rgb(108, 125, 123);
+transition: all 0.6s;
+border: 3px solid black;
+border-radius:  6px ;
+}
+.rev1:hover{
+    background-color: rgb(161, 240, 122);
+    transition: all 0.6s;
+    border-radius:  6px ;
+    border: 3px solid black;
+}
+.rev2:hover{
+    background-color: rgb(185, 182, 178);
+transition: all 0.6s;
+border-radius:  6px ;
+border: 3px solid black;
+}
+.rev3:hover{
+    background-color: rgb(232, 119, 119);
+transition: all 0.6s;
+border-radius:  6px ;
+border: 3px solid black;
+}
+.rev4:hover{
+    background-color: rgb(68, 91, 133);
+    transition: all 0.6s;
+    border: 3px solid black;
+    border-radius:  6px ;
+}

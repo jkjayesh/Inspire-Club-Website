@@ -1,0 +1,156 @@
+body,
+canvas {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 197%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+/* Join Us section and Universities section */
+.modal-content{
+    background: rgb(234, 242, 243);
+}
+.btn1{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 8px 18px;
+    background-color: rgba(241, 227, 227, 0.665);
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+/* navbar hover section */
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 5px;
+    margin-left: 20px;
+}
+
+.nav-link:hover{
+    background-color: rgb(5, 93, 5);
+    border-radius: 8px;
+    color: white;
+}
+
+/* VIDEOS */
+.hero{
+    width: 100vh;
+    height: 56.5vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    top: 110px; 
+    padding: 0 5%;
+    display: flex;
+   margin: auto;
+}
+
+.back-video{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid black;
+} 
+
+ @media (min-aspect-ratio:16/9)
+{
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9)
+{
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* Below Video */
+.content{
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.content h1{
+    color: white;
+    font-size: 61px;
+    font-weight: 900;
+    font-family: math;
+
+}
+
+.content h1:hover{
+         -webkit-text-stroke: 2px #fff;
+         color: transparent;
+}
+.content1{
+    margin: auto;
+    color: white;
+    font-size: 22px;
+    max-width: 103vh;
+    font-weight: 600;
+}
+h2{
+    position: relative;
+    top: 67px;
+    text-align: center;
+    color: rgb(39 85 122);
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 72px;
+    transition: all 0.6s;
+}
+h2:hover{
+    -webkit-text-stroke: 0.3vw #383d52;
+        color: black;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bubbles{
+    position: relative;
+    display: flex;
+}
+.bubbles span{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+.bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(100vh) scale(0);
+    }
+    100%{
+        transform: translateY(100vh) scale(0);
+    }
+
+}
+
+/* body{
+    background: gray;
+} */

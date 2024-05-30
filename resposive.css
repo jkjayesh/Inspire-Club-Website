@@ -1,0 +1,51 @@
+/* 
+===============
+HOME
+===============
+ */
+
+@media (min-width:741px) and  (max-width:1050px){
+    #parar{
+        width: 734px;
+    }
+    #details{
+        text-align: center;
+    }
+}
+
+@media (min-width:506px) and (max-width:741px)
+{
+      #parar{
+        font-size: 28px;
+        width: 467px;
+        text-align: center;
+      }
+      #imgg{
+        display: inline-block;
+        margin-left: 116px;
+      }
+      #details{
+        margin-left: 150px;
+        font-size: 27px;
+      }
+} 
+
+@media (min-width:360px) and (max-width:506px)
+{
+    #parar{
+        width: 304px;
+    text-align: center;
+    }
+    #imgg{
+        display: inline-block;
+        margin-left: 52px;
+      }
+      #details{
+        margin-left: 69px;
+      }
+      #introo{
+        font-size: 62px;
+      }
+}
+
+
